@@ -8,19 +8,28 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", Helvetica, sans-serif;
 }
 
-.header {
+.hero {
     background-color: #1F2937;
     color: white;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px; 
+}
+
+.hero img {
+    width: 500px;
+    max-height: 200px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 100px;
 }
 
 .header li {
@@ -30,6 +39,7 @@ body {
 .nav ul {
     display: flex;
     gap: 15px;
+    color: 
 }
 
 .logo {
@@ -39,11 +49,15 @@ body {
 
 .hero-content {
     display: flex;
-    justify-content: space-around;
-    padding: 0 100px;
+    justify-content: space-between;
 }
 
-.hero-image img{
-    width: 150px;
-    height: 150px;
+.hero-text {
+    max-width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
